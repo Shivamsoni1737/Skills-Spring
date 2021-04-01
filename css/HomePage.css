@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.home {
+  margin: 20px 10px;
+  text-align: center;
+  border: 3px solid #ff6bc4;
+  border-radius: 16px;
+  background-color: #4786ff;
+  padding: 10px;
+}
+
+.home__intro {
+  height: 100vw;
+  border-bottom: 2px solid black;
+  padding: 10px;
+}
+
+.detail {
+  text-align: left;
+}
+
+.home__heading {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.home__timing {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.home__iiitn {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.home__introd {
+  text-align: right;
+  margin: 128px 0;
+  background-color: black;
+  color: #4786ff;
+  padding: 0 10px 0 0;
+  padding-bottom: 1px;
+}
+
+img {
+  width: 40vw;
+}
+
+.home__skill {
+  padding: 10px 0;
+  border-bottom: 2px solid black;
+}
+
+.home__skill > img {
+  margin: 20px;
+  border: 3px solid #ff6bc4;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: black;
+}
+
+.home__skilld {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+.home__skillh {
+  margin-bottom: 10px;
+}
+
+.home__IIITN {
+  padding: 10px 0;
+  border-bottom: 2px solid black;
+}
+
+.home__IIITN > img {
+  margin: 20px;
+  border: 3px solid #ff6bc4;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: black;
+}
+
+.home__IIITNd {
+  margin: 10px;
+  padding-bottom: 30px;
+}
+
+.home__IIITNh {
+  margin-bottom: 10px;
+}
+
+.home__sponsor {
+  padding: 10px 0;
+}
+
+.home__sponsor > img {
+  margin: 20px;
+  border: 3px solid #ff6bc4;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: black;
+}
+
+.home__sponsor > h2 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+  .home {
+    margin: 30px 15vw;
+    border: 4px solid #ff6bc4;
+  }
+
+  img {
+    width: 15vw;
+  }
+
+  .home__intro {
+    text-align: center;
+    height: 30vw;
+    padding: 1px;
+    margin: 10px 100px 0 100px;
+    border-bottom: 0;
+    border-bottom: 4px solid black;
+  }
+
+  .home__introd {
+    color: #4786ff;
+    margin: 10vw 0;
+  }
+
+  .home__heading {
+    font-size: 72px;
+  }
+
+  .home__timing {
+    font-size: 32px;
+  }
+
+  .home__iiitn {
+    font-size: 32px;
+  }
+
+  .home__skill {
+    padding: 0;
+    margin: 50px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 4px solid black;
+  }
+
+  .home__IIITN {
+    padding: 0;
+    margin: 50px 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 4px solid black;
+  }
+
+  .home__skillLogo {
+    background-color: black;
+    border: 4px solid #ff6bc4;
+    border-radius: 32px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .home__IIITNLogo {
+    background-color: black;
+    border: 4px solid #ff6bc4;
+    border-radius: 32px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .home__skillh {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  .home__IIITNh {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  .home__skillp {
+    font-size: 20px;
+  }
+
+  .home__IIITNp {
+    font-size: 20px;
+  }
+
+  .home__skillLogo > img {
+    margin: 0;
+    object-fit: contain;
+    padding: auto;
+    height: 15vw;
+  }
+
+  .home__IIITNLogo > img {
+    margin: 0;
+    object-fit: contain;
+    padding: auto;
+    height: 15vw;
+  }
+
+  .home__skilld {
+    max-width: 600px;
+    padding: 0;
+    margin: auto;
+  }
+
+  .home__IIITNd {
+    max-width: 600px;
+    padding: 0;
+  }
+
+  .home__sponsor {
+    padding: 0;
+    margin: 50px 10vw;
+    border-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .home__sponsor > h2 {
+    font-size: 48px;
+    margin: 40px 0;
+    margin: auto;
+  }
+
+  .home__sponsor > img {
+    margin: auto;
+  }
+}

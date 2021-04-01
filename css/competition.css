@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.competition {
+  padding: 10px;
+  background-color: black;
+}
+
+.competition__card {
+  border: 3px solid #ff6bc4;
+  border-radius: 32px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #4786ff;
+}
+
+.competition__underline {
+  color: #ffa800;
+}
+
+.competition__title {
+  margin-bottom: 8px;
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.competition__details {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 480px) {
+  .competition {
+    padding: 0 15vw 30px 15vw;
+  }
+
+  .competition__card {
+    border: 4px solid #ff6bc4;
+    border-radius: 16px;
+    padding: 50px 110px;
+    margin-bottom: 48px;
+    background-color: #4786ff;
+  }
+
+  .competition__title {
+    margin-bottom: 32px;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+
+  .competition__details {
+    font-size: 24px;
+  }
+}
